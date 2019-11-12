@@ -1,0 +1,29 @@
+iframe {
+    border: 1px solid black;
+    width: 100%;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.output {
+    background: #eee;
+    position: relative;
+}
+
+img {
+    width: 45 px;
+    height: 45 px;
+    margin-left: 5%;
+}
+
+.coul{
+    padding: 30px ;
+    padding-left: 1%;
+    padding-bottom: 0%;
+}
+

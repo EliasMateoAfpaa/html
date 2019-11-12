@@ -1,0 +1,51 @@
+<!Doctype html>
+<html lang="fr">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/CSS/form.css">
+<head>
+        <li><a href="index.html">retour phase 1 à 6</a></li>
+</head>
+<body>
+    <p>* Ces zones sont obligatoires</p>
+        <fieldset>
+                <legend>Vos coordonnées</legend>
+                        <form action="http://bienvu.net/script.php" method="post" >
+                                <label>Votre nom:</label> <input type="text" name="nom"><br>
+                                <label> prénom:</label> <input type="text" name="nom"><br>
+                                <label>Email:</label> <input type="email" name="email"><br>
+                                        <p>Sexe* :</p>
+                                <input type="radio" name="sexe" value="Féminin"> Féminin 
+                                <input type="radio" name="sexe" value="Masculin"> Masculin 
+                                <div><label>Date de naissance*:</label> <input type="date" name="ddn"></div>
+                                <div><label>Code postal:</label> <input type="text" name="nom"></div>
+                                <div><input type="text" name="nom"></div>
+                                <div><label>Ville:</label> <input type="text" name="nom"></div>
+                                <div><label>Email*:</label> <input type="text" name="nom"></div>
+        </fieldset> 
+        <br>
+        <fieldset>
+                <legend>demande</legend>
+                        <select name="couleur">
+                                <option value="Bleu"><label>Autres</label></option> 
+                                <option value="Bleu"><label>Réclamation</label></option>
+                                <option value="Rouge"><label>Question sur un produit</label></option>
+                                <option value="Vert" selected><label>Mes commandes</label></option>
+                        </select>
+                <br>
+                <label>Votre question :</label><textarea name="commentaire" rows="0" cols="30"></textarea>
+        </fieldset> 
+        <br>
+                <input type="checkbox" name="couleur" value="Bleu"> J'accepte le traitement informatique de ce formulaire 
+        <br>
+               
+                <button type="submit" >Envoyer</button>
+                <button type="reset">Annuler</button>
+
+        </form>
+           
+                
+</body>
+<footer>
+
+</footer>
+</html>
